@@ -1,9 +1,9 @@
 # telephony-lebanon.github.io
 
 **Code Car** CodeCar is an Application that help you learn coding.
-[CodeCar](codecarleb.github.io)
+[CodeCar](https://codecarleb.github.io)
 
-Beta Test [CodeCar Android](github.com/danielawde9/CodeCar)
+Beta Test [CodeCar Android](https://github.com/danielawde9/CodeCar)
 
 # Feedback!
 
