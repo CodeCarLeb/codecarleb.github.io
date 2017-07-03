@@ -1,0 +1,70 @@
+<aside class="widget-side col-md-4 col-sm-12 col-xs-12">
+    <div class="widget" id="search">
+        <h3 class="h3-title">Search This Site</h3>
+        <gcse:search></gcse:search>
+    </div>
+    <div class="ad-widget hidden-sm hidden-xs" id="ads">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Project 10 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-6486789455195658"
+             data-ad-slot="4936588926"
+             data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    <div class="widget" id="tags">
+        <h3 class="h3-title">Tags</h3>
+        {% capture tags %}
+          {% for tag in site.tags %}
+            {{ tag[0] }}
+          {% endfor %}
+        {% endcapture %}
+        {% assign sortedtags = tags | split:' ' | sort %}
+        {% for tag in sortedtags %}
+            <a class="btn btn-primary" role="button" href="/tags/{{ tag }}/">{{ tag }}</a>
+        {% endfor %}
+    </div>
+    <div class="widget" id="latest-post">
+        <h3 class="h3-title">Latest Posts</h3>
+        {% for post in site.posts limit: 3%}
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 margin-span text-center latest-post">
+                    <ul class="list-unstyled">
+                        <li class="center-div">
+                            <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail">
+                                <img height="100" width="150" class="img-rounded" src="/images/small/{{ post.image }}" alt="{{ post.title }}">
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <ul class="list-unstyled">
+                                <li><span class="fa fa-pencil"></span> <a href="{{ site.baseurl }}/about">{{ post.author }}</a></li>
+                                <li><span class="fa fa-clock-o"></span> {{ post.date | date: "%b %-d, %Y" }}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="widget">
+        <h3 class="h3-title">Archive</h3>
+        <ul class="list-unstyled">
+        {% assign counter = 0 %}
+        {% for post in site.posts %}
+          {% assign thisyear = post.date | date: "%B %Y" %}
+          {% assign prevyear = post.previous.date | date: "%B %Y" %}
+          {% assign counter = counter | plus: 1 %}
+          {% if thisyear != prevyear %}
+            <li><a role="button" class="btn btn-default" href="/archive/#{{ post.date | date:"%B %Y" }}">{{ thisyear }} <span class="label label-primary">{{ counter }}</span></a></li>
+            {% assign counter = 0 %}
+          {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+</aside>
