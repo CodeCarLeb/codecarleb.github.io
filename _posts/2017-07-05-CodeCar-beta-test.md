@@ -21,6 +21,7 @@ When user first install the application, he will sign in using Facebook account
 It currently it supports 2 languages Java And our simplified custom language CodeCar.
 
 Here we selected CodeCar
+
 ![CodeCar Intro](/images/introduction/3.png "CodeCar Intro"){: .img-responsive .thumbnail  .max-image-height}
 
 Each language Consist of 3 level Difficulty (Easy, Challenging and PRO)
