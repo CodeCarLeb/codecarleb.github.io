@@ -6,10 +6,7 @@ tag: [Android, CodeCar]
 
 CodeCar is an application developped by me [Daniel Awde](https://www.facebook.com/daniel.aoude) and Pascale Nasr, where it gamify learning experience for kids and teach them logic thinking at small age.
 
-We as computer and communication engineering students face at the beginning many if difficulties in learning coding. since we are coping with this type of knowledge for the first time
-our mission today is to solve this problem from its roots.
-and the idea came to create an app that teaches this kind of logic to children
-moreover, a complementary product is a car that can be controlled by the user
+We as computer and communication engineering students face at the beginning many if difficulties in learning coding. since we are coping with this type of knowledge for the first time our mission today is to solve this problem from its roots. and the idea came to create an app that teaches this kind of logic to children moreover, a complementary product is a car that can be controlled by the user
 
 ![CodeCar Intro](/images/introduction/1.png "CodeCar Intro"){: .img-responsive .thumbnail  .max-image-height}
 
@@ -44,8 +41,8 @@ And select Java
 
 ![CodeCar Intro](/images/introduction/9.png "CodeCar Intro"){: .img-responsive .thumbnail  .max-image-height}
 
-
 When the user opens up a lesson he will be able to move the car by writing lines of codes of these languages, this way he’ll learn coding while enjoy playing.  
+
 ![CodeCar Intro](/images/introduction/18.png "CodeCar Intro"){: .img-responsive .thumbnail  .max-image-height}
 
 As you can see the app give Tips and tricks for each lesson.
@@ -73,11 +70,11 @@ And if he ever wants to share his progress with his friends and family
 
 The source of our Income will be generated from.
 
-Charging Premium service for higher level 
+* Charging Premium service for higher level 
 
-And Selling the car to those schools as its good way to teach students coding.
+* And Selling the car to those schools as its good way to teach students coding.
 
-Moreover since I’m a certified trainer I can make Workshops in schools and learning centres.
+* Moreover since I’m a certified trainer I can make Workshops in schools and learning centres.
 
 
 That's all for now, if you have any comment please tell us below.
