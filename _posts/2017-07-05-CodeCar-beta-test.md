@@ -1,10 +1,10 @@
 ---
-title:  "CodeCar Beta test"
+title:  "CodeCar Beta Test"
 image: logo_colored.png
 tag: [Android, CodeCar]
 ---
 
-CodeCar is an application developped by me [Daniel Awde](https://www.facebook.com/daniel.aoude) and Pascale Nasr, where it gamify learning experience for kids and teach them logic thinking at small age.
+CodeCar is an application developed by me [Daniel Awde](https://www.facebook.com/daniel.aoude) and Pascale Nasr, where it gamify learning experience for kids and teach them logic thinking at small age.
 
 We as computer and communication engineering students face at the many difficulties in learning new programming languages. since we are coping with this type of knowledge for the first time our mission today is to solve this problem from its roots. and the idea came to create an app that teaches this kind of logic to children moreover, a complementary product is a car that can be controlled by the user
 
