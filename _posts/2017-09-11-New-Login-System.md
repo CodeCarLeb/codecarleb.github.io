@@ -1,6 +1,6 @@
 ---
 title:  "New Login System"
-image: new_login.png
+image: new_login_image.png
 tag: [Android, CodeCar]
 ---
 
