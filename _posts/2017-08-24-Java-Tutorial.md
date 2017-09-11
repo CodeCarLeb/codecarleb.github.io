@@ -9,7 +9,7 @@ tag: [Java, Tutorial]
 *   Java programs are platform independent which means they can be run on any operating system with any type of processor as long as the Java interpreter is available on that system.
 *   Java code that runs on one platform does not need to be recompiled to run on another platform, it’s called “write once, run anywhere” (WORA).
 
-##A Hello World Program:
+## A Hello World Program:
 
     class MyClass{
 
@@ -27,7 +27,7 @@ tag: [Java, Tutorial]
 *   **Main** is a method where the program starts.
 *   You will notice that the main method code has been moved to some spaces left. This is called indentation which used to make a program easier to read and understand.
 
-####Example:
+#### Example:
 
 ```
     void test();
@@ -50,7 +50,7 @@ tag: [Java, Tutorial]
 **Note:** In java every code statement must end with a semicolon.
 
 
-###Java Comments:
+### Java Comments:
 The purpose of including comments in a code is to explain what the code is doing. 
 
 Java supports both single and multi-line comments. All characters that appear within a comment are ignored by the Java compiler.
@@ -73,7 +73,7 @@ For example:
  */
 ```
 
-###Documentation comments :
+### Documentation comments :
 
 Documentation comments are special comments that have the appearance of multi-line comments, with the difference being that they generate external documentation of your source code.
 
@@ -93,7 +93,7 @@ For example:
 
 ( This will retain just the text “this is the start of a method”  for the documentation).
 
-###Variables:
+### Variables:
 
 Variables store data for processing.
 A variable is given a name (or identifier), such as area, age, and height. The name uniquely identifies each variable, assigning a value to the variable and retrieving the value stored.
