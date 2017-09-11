@@ -1,6 +1,6 @@
 ---
 title:  "Java Tutorial"
-image: logo_colored.png
+image: java_large.png
 tag: [Java, Tutorial]
 ---
 

@@ -5,38 +5,102 @@
     <description>CodeCar is application that help you learn coding by gamify learning experience for kids.</description>
     <link>http://codecarleb.github.io/</link>
     <atom:link href="http://codecarleb.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Aug 2017 23:13:22 +0300</pubDate>
-    <lastBuildDate>Thu, 24 Aug 2017 23:13:22 +0300</lastBuildDate>
+    <pubDate>Mon, 11 Sep 2017 21:52:13 +0300</pubDate>
+    <lastBuildDate>Mon, 11 Sep 2017 21:52:13 +0300</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
+        <title>New Login System</title>
+        <description>&lt;p&gt;Lately I’ve been working on new login system secured and connected to my database to register user and update their information&lt;/p&gt;
+
+&lt;p&gt;The new login system uses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use PHP PDO for working with MySQL database which is more secure and prevents SQL injection.&lt;/li&gt;
+  &lt;li&gt;Hash password using default PHP BCRYPT algorithm instead of SHA.&lt;/li&gt;
+  &lt;li&gt;JSON input instead of form urlencoded data input.
+And much more…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The login screen where user can login, sign up or request for forgotten  password.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/1.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If user is registered and logs in go to Profile Screen he will see his information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/2.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If user wants to change password&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/3.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Or First time user complete the fields to register in CodeCar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/4.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It gave me error because im already registred to CodeCar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/5.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Inside look in the CodeCar database&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/6.jpg&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If user forgot his password it’ll send an email contain a verification  code and user have to use it within an hour to change his/her password&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/7.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then an email is sent to that account if found in our DB with the code to change the password&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/8.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Email contain the password reset code&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/9.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s all for now, if you have any comment please tell us below.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Sep 2017 00:00:00 +0300</pubDate>
+        <link>http://codecarleb.github.io/New-Login-System</link>
+        <guid isPermaLink="true">http://codecarleb.github.io/New-Login-System</guid>
+        
+        <category>Android</category>
+        
+        <category>CodeCar</category>
+        
+        
+        <category>Tech</category>
+        
+      </item>
+    
+      <item>
         <title>Java Type</title>
-        <description>&lt;h2 id=&quot;primitive-data-types&quot;&gt;Primitive Data types&lt;/h2&gt;
+        <description>&lt;h4 id=&quot;primitive-data-types&quot;&gt;Primitive Data types&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Data types form the very basic and the core of programming with Java. It’s important to learn in great detail about almost all data types that come in handy in day-to- day programming. They include character type, int type, float type, boolean etc.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;strings&quot;&gt;Strings&lt;/h2&gt;
+&lt;h4 id=&quot;strings&quot;&gt;Strings&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Strings also form an essential part of Java programming. Implementations of concatenation, searching parts of string etc. are an important part of Java and prove on to be highly useful programming tools in the long run.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;selection-control-structures&quot;&gt;Selection Control Structures&lt;/h2&gt;
+&lt;h4 id=&quot;selection-control-structures&quot;&gt;Selection Control Structures&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Conditional statements like if, if-else, switch etc. are quintessential when it comes to carrying out operations when certain conditions are fulfilled. They too form the crux of carrying out programming in any language.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;methods&quot;&gt;Methods&lt;/h2&gt;
+&lt;h4 id=&quot;methods&quot;&gt;Methods&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;There are many instances when similar tasks need to be carried out multiple times within a program. Functions or methods come handy here. You’ll use hundreds of functions when programming in any language hence it’s crucial to become adept at using them. Some of the implementations of functions might be to find the largest number among a list of numbers, searching a particular word in a string etc.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;classes&quot;&gt;Classes&lt;/h2&gt;
+&lt;h4 id=&quot;classes&quot;&gt;Classes&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;In the real world, you’ll find many similar objects of the same kind. Java is essentially an object-oriented language, an aspect of it which differentiates it from many low-level programming languages such as C. Let’s take the example of a bicycle in the real world. Bicycles share properties of having two wheels, a seat etc. We can say that someone’s bicycle is an instance of the class of objects, bicycles. Even when programming in Java (and even in Android!), you might have to create classes that contain similar attributes and functions within them. Objects of that class can be called in a variety of situations to make programming efficient, simpler and more concise.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;inheritance-interfaces-and-abstract-classes&quot;&gt;Inheritance, Interfaces and Abstract Classes&lt;/h2&gt;
+&lt;h4 id=&quot;inheritance-interfaces-and-abstract-classes&quot;&gt;Inheritance, Interfaces and Abstract Classes&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Objects define their interaction with the outside world through the methods that they expose. Methods form the object’s interface with the outside world; the buttons on the front of your television set, for example, are the interface between you and the electrical wiring on the other side of its plastic casing. You press the “power” button to turn the television on and off. In its most common form, an interface is a group of related methods with empty bodies. A bicycle’s behavior, if specified as an interface, might appear as follows:&lt;/p&gt;
@@ -58,7 +122,7 @@ interface Bicycle {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;arrays&quot;&gt;Arrays&lt;/h2&gt;
+&lt;h4 id=&quot;arrays&quot;&gt;Arrays&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;An array is a container object that holds a fixed number of values of a single type. They are important in storing data of a particular type and are highly expedient when accessing data (especially when making lengthy android apps)
 All these concepts can immensely help you as well as Android App Developers get on a smooth track to learn android programming, to understand Java essentials and build amazing android apps.&lt;/li&gt;
