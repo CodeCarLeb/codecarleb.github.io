@@ -5,9 +5,80 @@
     <description>CodeCar is application that help you learn coding by gamify learning experience for kids.</description>
     <link>http://codecarleb.github.io/</link>
     <atom:link href="http://codecarleb.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Sep 2017 16:26:18 +0300</pubDate>
-    <lastBuildDate>Tue, 12 Sep 2017 16:26:18 +0300</lastBuildDate>
+    <pubDate>Thu, 14 Sep 2017 20:39:25 +0300</pubDate>
+    <lastBuildDate>Thu, 14 Sep 2017 20:39:25 +0300</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Implementing Preference</title>
+        <description>&lt;h3 id=&quot;preferenceactivity-in-android&quot;&gt;PreferenceActivity In Android&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;PreferenceActivity&lt;/strong&gt;  is the base class for an activity to show a hierarchy of preferences to the user.
+It is generally used for saving the setting/preference of  User. Android provides excellent framework to save and mange the User preferences.&lt;/p&gt;
+
+&lt;p&gt;In this I have created a Page/Screen with user can connect to CodeCar, change his password, and other choices/details.&lt;/p&gt;
+
+&lt;p&gt;Steps:&lt;/p&gt;
+
+&lt;p&gt;1: Create xml resource for Preference:  create an xml file inside xml folder (if xml folder is not there inside res folder, create xml folder inside res folder. In the example I have created user_settings.xml file inside xml folder.&lt;/p&gt;
+
+&lt;p&gt;2: Create a Class which extends PreferenceActivity class , and inflate the created xml using addPreferencesFromResource() method.&lt;/p&gt;
+
+&lt;p&gt;3: Call/Start the PreferenceActivity (created in 2nd steps) from where you want. In the example I have called from MainActivity using startActivityForResult()   method.&lt;/p&gt;
+
+&lt;p&gt;So lets check it out&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/3.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And this is the Rest&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/4.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Rating currently is not working since CodeCar is not an official Play Store App.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/5.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If we head to the link section and press any link itll take us to the corresponding link to it
+For example we pressed the Visit CodeCar Website&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/6.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Preference also allow you to change password from within the activity&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/7.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Contact Us for support or just sending feeback on your experience with CodeCar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/8.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Share CodeCar Website or App link (Currently only share the website link)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/9.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Send it to anyone you want using any app&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/10.jpg&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aslo if you having hard time or you just a begginer in coding you change the difficulty level while playing CodeCar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/11.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: CameraBackground allow you to make the wallpaper or the background of your app as a background to play while seeing your CodeCar or even while walking.&lt;/p&gt;
+
+&lt;p&gt;That’s all for now, if you have any comment please tell us below.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Sep 2017 00:00:00 +0300</pubDate>
+        <link>http://codecarleb.github.io/Implementing-Preference</link>
+        <guid isPermaLink="true">http://codecarleb.github.io/Implementing-Preference</guid>
+        
+        <category>Android</category>
+        
+        <category>CodeCar</category>
+        
+        
+        <category>Tech</category>
+        
+      </item>
     
       <item>
         <title>New Login System</title>

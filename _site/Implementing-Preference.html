@@ -8,8 +8,8 @@
     <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="google-site-verification" content="zfn6R_70flvtiV5lTjaUJNjL6uQ-ADCnmS7hXlV1Tjg" />
-        <title>New Login System</title>
-        <meta name="description" content="Lately I’ve been working on new login system secured and connected to my database to register user and update their information">
+        <title>Implementing Preference</title>
+        <meta name="description" content="PreferenceActivity In Android">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//google-analytics.com">
@@ -19,11 +19,11 @@
         <link rel="stylesheet" href="/css/main.css" type="text/css">
 -->
         <link rel="stylesheet" href="/css/compressed.css" type="text/css">
-        <link rel="canonical" href="http://codecarleb.github.io/New-Login-System">
+        <link rel="canonical" href="http://codecarleb.github.io/Implementing-Preference">
         <link rel="alternate" type="application/rss+xml" title="Code Car Learn Coding!" href="http://codecarleb.github.io/feed.xml" />
         <meta content="Code Car Learn Coding!" property="og:site_name">
         
-          <meta content="New Login System" property="og:title">
+          <meta content="Implementing Preference" property="og:title">
         
         
           <meta content="article" property="og:type">
@@ -32,14 +32,14 @@
           <meta content="CodeCar is application that help you learn coding by gamify learning experience for kids." property="og:description">
         
         
-          <meta content="http://codecarleb.github.io/New-Login-System" property="og:url">
+          <meta content="http://codecarleb.github.io/Implementing-Preference" property="og:url">
         
         
-          <meta content="2017-09-11T00:00:00+03:00" property="article:published_time">
+          <meta content="2017-09-14T00:00:00+03:00" property="article:published_time">
           <meta content="http://codecarleb.github.io/about/" property="article:author">
         
         
-          <meta content="/img/new_login_image.png" property="og:image">
+          <meta content="/img/preference.png" property="og:image">
         
         
           
@@ -160,7 +160,7 @@
                 <div class="main-side col-md-8 col-sm-12 col-xs-12">
     <article class="post">
         <h2>
-           <a href="">New Login System</a>
+           <a href="">Implementing Preference</a>
         </h2>
         <div class="post-info margin-span">
             <div id="left-side" class="text-center">
@@ -168,59 +168,66 @@
                 <a href="/about">Daniel Awde</a>
                 •
                 <span class="fa fa-clock-o hidden-xs"></span>
-                Sep 11, 2017
+                Sep 14, 2017
             </div>
         </div>
         <div class="post-body margin-span">
             <a href="" class="thumbnail">
-                <img class="img-responsive" src="/images/large/new_login_image.png" width="708" height="360" alt="New Login System">
+                <img class="img-responsive" src="/images/large/preference.png" width="708" height="360" alt="Implementing Preference">
             </a>
-            <p>Lately I’ve been working on new login system secured and connected to my database to register user and update their information</p>
+            <h3 id="preferenceactivity-in-android">PreferenceActivity In Android</h3>
 
-<p>The new login system uses:</p>
+<p><strong>PreferenceActivity</strong>  is the base class for an activity to show a hierarchy of preferences to the user.
+It is generally used for saving the setting/preference of  User. Android provides excellent framework to save and mange the User preferences.</p>
 
-<ul>
-  <li>Use PHP PDO for working with MySQL database which is more secure and prevents SQL injection.</li>
-  <li>Hash password using default PHP BCRYPT algorithm instead of SHA.</li>
-  <li>JSON input instead of form urlencoded data input.
-And much more…</li>
-</ul>
+<p>In this I have created a Page/Screen with user can connect to CodeCar, change his password, and other choices/details.</p>
 
-<p>The login screen where user can login, sign up or request for forgotten  password.</p>
+<p>Steps:</p>
 
-<p><img src="/images/new_login/1.png" alt="CodeCar New Login" title="CodeCar New Login" class="img-responsive thumbnail max-image-height" /></p>
+<p>1: Create xml resource for Preference:  create an xml file inside xml folder (if xml folder is not there inside res folder, create xml folder inside res folder. In the example I have created user_settings.xml file inside xml folder.</p>
 
-<p>If user is registered and logs in go to Profile Screen he will see his information.</p>
+<p>2: Create a Class which extends PreferenceActivity class , and inflate the created xml using addPreferencesFromResource() method.</p>
 
-<p><img src="/images/new_login/2.png" alt="CodeCar New Login" title="CodeCar New Login" class="img-responsive thumbnail max-image-height" /></p>
+<p>3: Call/Start the PreferenceActivity (created in 2nd steps) from where you want. In the example I have called from MainActivity using startActivityForResult()   method.</p>
 
-<p>If user wants to change password</p>
+<p>So lets check it out</p>
 
-<p><img src="/images/new_login/3.png" alt="CodeCar New Login" title="CodeCar New Login" class="img-responsive thumbnail max-image-height" /></p>
+<p><img src="/images/preference/3.png" alt="CodeCar Intro" title="CodeCar Preference" class="img-responsive thumbnail max-image-height" /></p>
 
-<p>Or First time user complete the fields to register in CodeCar</p>
+<p>And this is the Rest</p>
 
-<p><img src="/images/new_login/4.png" alt="CodeCar New Login" title="CodeCar New Login" class="img-responsive thumbnail max-image-height" /></p>
+<p><img src="/images/preference/4.png" alt="CodeCar Intro" title="CodeCar Preference" class="img-responsive thumbnail max-image-height" /></p>
 
-<p>It gave me error because im already registred to CodeCar</p>
+<p><strong>Note</strong>: Rating currently is not working since CodeCar is not an official Play Store App.</p>
 
-<p><img src="/images/new_login/5.png" alt="CodeCar New Login" title="CodeCar New Login" class="img-responsive thumbnail max-image-height" /></p>
+<p><img src="/images/preference/5.png" alt="CodeCar Intro" title="CodeCar Preference" class="img-responsive thumbnail max-image-height" /></p>
 
-<p>Inside look in the CodeCar database</p>
+<p>If we head to the link section and press any link itll take us to the corresponding link to it
+For example we pressed the Visit CodeCar Website</p>
 
-<p><img src="/images/new_login/6.jpg" alt="CodeCar New Login" title="CodeCar New Login" class="img-responsive thumbnail max-image-height" /></p>
+<p><img src="/images/preference/6.png" alt="CodeCar Intro" title="CodeCar Preference" class="img-responsive thumbnail max-image-height" /></p>
 
-<p>If user forgot his password it’ll send an email contain a verification  code and user have to use it within an hour to change his/her password</p>
+<p>Preference also allow you to change password from within the activity</p>
 
-<p><img src="/images/new_login/7.png" alt="CodeCar New Login" title="CodeCar New Login" class="img-responsive thumbnail max-image-height" /></p>
+<p><img src="/images/preference/7.png" alt="CodeCar Intro" title="CodeCar Preference" class="img-responsive thumbnail max-image-height" /></p>
 
-<p>Then an email is sent to that account if found in our DB with the code to change the password</p>
+<p>Contact Us for support or just sending feeback on your experience with CodeCar</p>
 
-<p><img src="/images/new_login/8.png" alt="CodeCar New Login" title="CodeCar New Login" class="img-responsive thumbnail max-image-height" /></p>
+<p><img src="/images/preference/8.png" alt="CodeCar Intro" title="CodeCar Preference" class="img-responsive thumbnail max-image-height" /></p>
 
-<p>Email contain the password reset code</p>
+<p>Share CodeCar Website or App link (Currently only share the website link)</p>
 
-<p><img src="/images/new_login/9.png" alt="CodeCar New Login" title="CodeCar New Login" class="img-responsive thumbnail max-image-height" /></p>
+<p><img src="/images/preference/9.png" alt="CodeCar Intro" title="CodeCar Preference" class="img-responsive thumbnail max-image-height" /></p>
+
+<p>Send it to anyone you want using any app</p>
+
+<p><img src="/images/preference/10.jpg" alt="CodeCar Intro" title="CodeCar Preference" class="img-responsive thumbnail max-image-height" /></p>
+
+<p>Aslo if you having hard time or you just a begginer in coding you change the difficulty level while playing CodeCar</p>
+
+<p><img src="/images/preference/11.png" alt="CodeCar Intro" title="CodeCar Preference" class="img-responsive thumbnail max-image-height" /></p>
+
+<p><strong>Note</strong>: CameraBackground allow you to make the wallpaper or the background of your app as a background to play while seeing your CodeCar or even while walking.</p>
 
 <p>That’s all for now, if you have any comment please tell us below.</p>
 
@@ -248,12 +255,12 @@ And much more…</li>
     <div class="post">
         
             <div class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <a class="pull-left" href="/Java-Type">&laquo; Java Type</a>
+                <a class="pull-left" href="/New-Login-System">&laquo; New Login System</a>
             </div>
         
         
             <div class="pull-right col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <a class="pull-right" href="/Implementing-Preference">Implementing Preference &raquo;</a>
+                <a class="pull-right"></a>
             </div>
         
     </div>
@@ -266,8 +273,8 @@ And much more…</li>
      */
 
     var disqus_config = function () {
-        this.page.url = 'http://codecarleb.github.io/New Login System';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'New Login System'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://codecarleb.github.io/Implementing Preference';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'Implementing Preference'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 
     (function() {  // DON'T EDIT BELOW THIS LINE
