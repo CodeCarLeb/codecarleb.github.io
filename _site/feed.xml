@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Car Learn Coding!</title>
+    <description>CodeCar is application that help you learn coding by gamify learning experience for kids.</description>
+    <link>http://codecarleb.github.io/</link>
+    <atom:link href="http://codecarleb.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 Sep 2017 20:59:18 +0300</pubDate>
+    <lastBuildDate>Thu, 14 Sep 2017 20:59:18 +0300</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Implementing Preference</title>
+        <description>&lt;h3 id=&quot;preferenceactivity-in-android&quot;&gt;PreferenceActivity In Android&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;PreferenceActivity&lt;/strong&gt;  is the base class for an activity to show a hierarchy of preferences to the user.
+It is generally used for saving the setting/preference of  User. Android provides excellent framework to save and mange the User preferences.&lt;/p&gt;
+
+&lt;p&gt;In this I have created a Page/Screen with user can connect to CodeCar, change his password, and other choices/details.&lt;/p&gt;
+
+&lt;p&gt;Steps:&lt;/p&gt;
+
+&lt;p&gt;1: Create xml resource for Preference:  create an xml file inside xml folder (if xml folder is not there inside res folder, create xml folder inside res folder. In the example I have created user_settings.xml file inside xml folder.&lt;/p&gt;
+
+&lt;p&gt;2: Create a Class which extends PreferenceActivity class , and inflate the created xml using addPreferencesFromResource() method.&lt;/p&gt;
+
+&lt;p&gt;3: Call/Start the PreferenceActivity (created in 2nd steps) from where you want. In the example I have called from MainActivity using startActivityForResult()   method.&lt;/p&gt;
+
+&lt;p&gt;So lets check it out&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/3.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And this is the Rest&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/4.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Rating currently is not working since CodeCar is not an official Play Store App.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/5.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If we head to the link section and press any link itll take us to the corresponding link to it
+For example we pressed the Visit CodeCar Website&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/6.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Preference also allow you to change password from within the activity&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/7.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Contact Us for support or just sending feeback on your experience with CodeCar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/8.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Share CodeCar Website or App link (Currently only share the website link)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/9.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Send it to anyone you want using any app&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/10.jpg&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aslo if you having hard time or you just a begginer in coding you change the difficulty level while playing CodeCar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/preference/11.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Preference&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: CameraBackground allow you to make the wallpaper or the background of your app as a background to play while seeing your CodeCar or even while walking.&lt;/p&gt;
+
+&lt;p&gt;That’s all for now, if you have any comment please tell us below.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Sep 2017 00:00:00 +0300</pubDate>
+        <link>http://codecarleb.github.io/Implementing-Preference</link>
+        <guid isPermaLink="true">http://codecarleb.github.io/Implementing-Preference</guid>
+        
+        <category>Android</category>
+        
+        <category>CodeCar</category>
+        
+        
+        <category>Tech</category>
+        
+      </item>
+    
+      <item>
+        <title>New Login System</title>
+        <description>&lt;p&gt;Lately I’ve been working on new login system secured and connected to my database to register user and update their information&lt;/p&gt;
+
+&lt;p&gt;The new login system uses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use PHP PDO for working with MySQL database which is more secure and prevents SQL injection.&lt;/li&gt;
+  &lt;li&gt;Hash password using default PHP BCRYPT algorithm instead of SHA.&lt;/li&gt;
+  &lt;li&gt;JSON input instead of form urlencoded data input.
+And much more…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The login screen where user can login, sign up or request for forgotten  password.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/1.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If user is registered and logs in go to Profile Screen he will see his information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/2.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If user wants to change password&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/3.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Or First time user complete the fields to register in CodeCar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/4.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It gave me error because im already registred to CodeCar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/5.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Inside look in the CodeCar database&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/6.jpg&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If user forgot his password it’ll send an email contain a verification  code and user have to use it within an hour to change his/her password&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/7.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then an email is sent to that account if found in our DB with the code to change the password&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/8.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Email contain the password reset code&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new_login/9.png&quot; alt=&quot;CodeCar New Login&quot; title=&quot;CodeCar New Login&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s all for now, if you have any comment please tell us below.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Sep 2017 00:00:00 +0300</pubDate>
+        <link>http://codecarleb.github.io/New-Login-System</link>
+        <guid isPermaLink="true">http://codecarleb.github.io/New-Login-System</guid>
+        
+        <category>Android</category>
+        
+        <category>CodeCar</category>
+        
+        
+        <category>Tech</category>
+        
+      </item>
+    
+      <item>
+        <title>Java Type</title>
+        <description>&lt;h4 id=&quot;primitive-data-types&quot;&gt;Primitive Data types&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Data types form the very basic and the core of programming with Java. It’s important to learn in great detail about almost all data types that come in handy in day-to- day programming. They include character type, int type, float type, boolean etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;strings&quot;&gt;Strings&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Strings also form an essential part of Java programming. Implementations of concatenation, searching parts of string etc. are an important part of Java and prove on to be highly useful programming tools in the long run.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;selection-control-structures&quot;&gt;Selection Control Structures&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Conditional statements like if, if-else, switch etc. are quintessential when it comes to carrying out operations when certain conditions are fulfilled. They too form the crux of carrying out programming in any language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;methods&quot;&gt;Methods&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;There are many instances when similar tasks need to be carried out multiple times within a program. Functions or methods come handy here. You’ll use hundreds of functions when programming in any language hence it’s crucial to become adept at using them. Some of the implementations of functions might be to find the largest number among a list of numbers, searching a particular word in a string etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;classes&quot;&gt;Classes&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;In the real world, you’ll find many similar objects of the same kind. Java is essentially an object-oriented language, an aspect of it which differentiates it from many low-level programming languages such as C. Let’s take the example of a bicycle in the real world. Bicycles share properties of having two wheels, a seat etc. We can say that someone’s bicycle is an instance of the class of objects, bicycles. Even when programming in Java (and even in Android!), you might have to create classes that contain similar attributes and functions within them. Objects of that class can be called in a variety of situations to make programming efficient, simpler and more concise.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;inheritance-interfaces-and-abstract-classes&quot;&gt;Inheritance, Interfaces and Abstract Classes&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Objects define their interaction with the outside world through the methods that they expose. Methods form the object’s interface with the outside world; the buttons on the front of your television set, for example, are the interface between you and the electrical wiring on the other side of its plastic casing. You press the “power” button to turn the television on and off. In its most common form, an interface is a group of related methods with empty bodies. A bicycle’s behavior, if specified as an interface, might appear as follows:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// wheel revolutions per minute 
+interface Bicycle { 
+        
+    void changeCadence(int newValue); 
+        
+    void changeGear(int newValue); 
+        
+    void speedUp(int increment); 
+        
+    void applyBrakes(int decrement); 
+        
+    }
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;arrays&quot;&gt;Arrays&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;An array is a container object that holds a fixed number of values of a single type. They are important in storing data of a particular type and are highly expedient when accessing data (especially when making lengthy android apps)
+All these concepts can immensely help you as well as Android App Developers get on a smooth track to learn android programming, to understand Java essentials and build amazing android apps.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 24 Aug 2017 00:00:00 +0300</pubDate>
+        <link>http://codecarleb.github.io/Java-Type</link>
+        <guid isPermaLink="true">http://codecarleb.github.io/Java-Type</guid>
+        
+        <category>Java</category>
+        
+        <category>Tutorial</category>
+        
+        
+        <category>Tech</category>
+        
+      </item>
+    
+      <item>
+        <title>Java Tutorial</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Java is a high level, modern programming language designed in the early 1990s by sun Microsystems, and currently owned by Oracle.&lt;/li&gt;
+  &lt;li&gt;Java programs are platform independent which means they can be run on any operating system with any type of processor as long as the Java interpreter is available on that system.&lt;/li&gt;
+  &lt;li&gt;Java code that runs on one platform does not need to be recompiled to run on another platform, it’s called “write once, run anywhere” (WORA).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-hello-world-program&quot;&gt;A Hello World Program:&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class MyClass{
+
+public static void main(String [ ] args){
+
+    System.out.println(“Hello World”);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Every line of code in Java that can run should be inside a class.&lt;/li&gt;
+  &lt;li&gt;All class names required to start with a capital letter&lt;/li&gt;
+  &lt;li&gt;In this example, MyClass is the name of the class already created.&lt;/li&gt;
+  &lt;li&gt;The word &lt;strong&gt;Public&lt;/strong&gt; means that it is accessible by any other classes.&lt;/li&gt;
+  &lt;li&gt;The word &lt;strong&gt;Static&lt;/strong&gt; means that it is unique( the method can be run without creating an instance of the class containing the main method)&lt;/li&gt;
+  &lt;li&gt;The word &lt;strong&gt;Void&lt;/strong&gt; means this main method has no return value.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Main&lt;/strong&gt; is a method where the program starts.&lt;/li&gt;
+  &lt;li&gt;You will notice that the main method code has been moved to some spaces left. This is called indentation which used to make a program easier to read and understand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;example&quot;&gt;Example:&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+    void test();
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This code declares a method called test, which does not return anything and has no parameters.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The method’s parameters are declared inside the parentheses that follow the name of the method.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The body of the main method, enclosed in curly braces:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;System.out.println(“Hello&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;World”);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The println method prints a line of text to the screen.&lt;/li&gt;
+  &lt;li&gt;The System class and its out stream are used to access the println method.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; In java every code statement must end with a semicolon.&lt;/p&gt;
+
+&lt;h3 id=&quot;java-comments&quot;&gt;Java Comments:&lt;/h3&gt;
+&lt;p&gt;The purpose of including comments in a code is to explain what the code is doing.&lt;/p&gt;
+
+&lt;p&gt;Java supports both single and multi-line comments. All characters that appear within a comment are ignored by the Java compiler.
+*   A single-line comment starts with two forward slashes and continues until it reaches the end of the line. 
+*   Java also supports comments that span multiple lines. This type of comment starts with a forward slash followed by an asterisk, and ends with an asterisk followed by a forward slash.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+/* This is also a comment spanning multiple lines */
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Java does not support nested multi-line comments. However, you can nest single-line comments within multi-line comments.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+/* This is a single-line comment:
+// A single-line comment 
+ */
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;documentation-comments-&quot;&gt;Documentation comments :&lt;/h3&gt;
+
+&lt;p&gt;Documentation comments are special comments that have the appearance of multi-line comments, with the difference being that they generate external documentation of your source code.&lt;/p&gt;
+
+&lt;p&gt;These begin with a forward slash followed by two asterisks, and end with an asterisk followed by a forward slash.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Javadoc&lt;/strong&gt; is a tool which comes with JDK and it is used for generating Java code documentation in HTML format from Java source code which has required documentation in a  predefined format.&lt;/p&gt;
+
+&lt;p&gt;When a documentation comment begins with more than two asterisks, Javadoc assumes that you want to create a “box” around the comment in the source code. It simply ignores the extra asterisks.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+/*************
+ This is the start of a method
+ ************/
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;( This will retain just the text “this is the start of a method”  for the documentation).&lt;/p&gt;
+
+&lt;h3 id=&quot;variables&quot;&gt;Variables:&lt;/h3&gt;
+
+&lt;p&gt;Variables store data for processing.
+A variable is given a name (or identifier), such as area, age, and height. The name uniquely identifies each variable, assigning a value to the variable and retrieving the value stored.
+Variable has types. Some examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;int&lt;/strong&gt; : for integer (whole numbers) such as 123 and - 406.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;double&lt;/strong&gt; : for floating-point or real numbers with optional decimal points and fractional parts in fixed or scientific notations, such as 3.1416, -80.44.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;String&lt;/strong&gt; : for texts such as “Hello” or “Good morning”. Text strings are enclosed within double quotes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Char&lt;/strong&gt; : stands for character and holds a single character such as ‘Z’.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can declare a variable of a type and assign it a value.&lt;/p&gt;
+
+&lt;p&gt;For example: string name = “David”;&lt;/p&gt;
+
+&lt;p&gt;This creates a variable called name of type String, and assigns it the value “David”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;  It is important to note that a variable is associated with a type, and is only capable to storing values of that particular type. For example, an int variable can store integer values, such as 123; but it cannot store real numbers such as 13.1416, or texts, such as “Hello”.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 24 Aug 2017 00:00:00 +0300</pubDate>
+        <link>http://codecarleb.github.io/Java-Tutorial</link>
+        <guid isPermaLink="true">http://codecarleb.github.io/Java-Tutorial</guid>
+        
+        <category>Java</category>
+        
+        <category>Tutorial</category>
+        
+        
+        <category>Tech</category>
+        
+      </item>
+    
+      <item>
+        <title>CodeCar Beta Test</title>
+        <description>&lt;p&gt;CodeCar is an application developed by me &lt;a href=&quot;https://www.facebook.com/daniel.aoude&quot;&gt;Daniel Awde&lt;/a&gt; and Pascale Nasr, where it gamify learning experience for kids and teach them logic thinking at small age.&lt;/p&gt;
+
+&lt;p&gt;We as computer and communication engineering students face at the many difficulties in learning new programming languages. since we are coping with this type of knowledge for the first time our mission today is to solve this problem from its roots. and the idea came to create an app that teaches this kind of logic to children moreover, a complementary product is a car that can be controlled by the user&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/1.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Code car is a Free app will be available on google play store&lt;/p&gt;
+
+&lt;p&gt;Beta Test CodeCar Android &lt;a href=&quot;https://github.com/danielawde9/CodeCar&quot;&gt;CodeCar&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When user first install the application, he will sign in using Facebook account&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/5.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It currently it supports 2 languages Java And our simplified custom language CodeCar.&lt;/p&gt;
+
+&lt;p&gt;Here we selected CodeCar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/3.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each language Consist of 3 level Difficulty (Easy, Challenging and PRO)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/4.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The pro version will be paid level for experienced students and employees.&lt;/p&gt;
+
+&lt;p&gt;Each language consists of multiple lesson, whenever the user finishes a lesson it increases their level.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/7.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If the user want to change the Language at any time&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/8.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And select Java&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/9.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When the user opens up a lesson he will be able to move the car by writing lines of codes of these languages, this way he’ll learn coding while enjoy playing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/18.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see the app give Tips and tricks for each lesson.&lt;/p&gt;
+
+&lt;p&gt;There is also free play mode lesson where user can move the car using a joystick. Each time he moves the joystick it display the command use to move the car.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/17.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When the user finishes the lesson.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/19.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A little note here that this app work without the car if the user just wants to learn which is our main objective.&lt;/p&gt;
+
+&lt;p&gt;User profile which include his progress, friends and achievments&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/10.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And if he ever wants to share his progress with his friends and family&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/12.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introduction/13.png&quot; alt=&quot;CodeCar Intro&quot; title=&quot;CodeCar Intro&quot; class=&quot;img-responsive thumbnail max-image-height&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The source of our Income will be generated from.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Charging Premium service for higher level&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;And Selling the car to those schools as its good way to teach students coding.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Moreover since I’m a certified trainer I can make Workshops in schools and learning centres.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s all for now, if you have any comment please tell us below.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Jul 2017 00:00:00 +0300</pubDate>
+        <link>http://codecarleb.github.io/CodeCar-Beta-Test</link>
+        <guid isPermaLink="true">http://codecarleb.github.io/CodeCar-Beta-Test</guid>
+        
+        <category>Android</category>
+        
+        <category>CodeCar</category>
+        
+        
+        <category>Tech</category>
+        
+      </item>
+    
+  </channel>
+</rss>
