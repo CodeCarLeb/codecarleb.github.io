@@ -5,6 +5,19 @@
         <gcse:search></gcse:search>
     </div>
 -->
+   <div class="widget" id="tags">
+        <h3 class="h3-title">Tags</h3>
+        {% capture tags %}
+          {% for tag in site.tags %}
+            {{ tag[0] }}
+          {% endfor %}
+        {% endcapture %}
+        {% assign sortedtags = tags | split:' ' | sort %}
+        {% for tag in sortedtags %}
+            <a class="btn btn-primary" role="button" href="/tags/{{ tag }}/" style="margin: 5px">{{ tag }}</a>
+        {% endfor %}
+    </div>
+    
     <div class="ad-widget hidden-sm hidden-xs" id="ads">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Project 10 -->
@@ -17,18 +30,7 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     </div>
-    <div class="widget" id="tags">
-        <h3 class="h3-title">Tags</h3>
-        {% capture tags %}
-          {% for tag in site.tags %}
-            {{ tag[0] }}
-          {% endfor %}
-        {% endcapture %}
-        {% assign sortedtags = tags | split:' ' | sort %}
-        {% for tag in sortedtags %}
-            <a class="btn btn-primary" role="button" href="/tags/{{ tag }}/">{{ tag }}</a>
-        {% endfor %}
-    </div>
+    
     <div class="widget" id="latest-post">
         <h3 class="h3-title">Latest Posts</h3>
         {% for post in site.posts limit: 3%}
