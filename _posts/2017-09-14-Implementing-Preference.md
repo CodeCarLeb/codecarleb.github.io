@@ -4,8 +4,7 @@ image: preference_image.png
 tag: [Android, CodeCar]
 ---
 
-### PreferenceActivity In Android
-
+#### PreferenceActivity In Android
 **PreferenceActivity**  is the base class for an activity to show a hierarchy of preferences to the user.
 It is generally used for saving the setting/preference of  User. Android provides excellent framework to save and mange the User preferences.
 

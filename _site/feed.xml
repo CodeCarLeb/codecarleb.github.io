@@ -5,14 +5,13 @@
     <description>CodeCar is application that help you learn coding by gamify learning experience for kids.</description>
     <link>http://codecarleb.github.io/</link>
     <atom:link href="http://codecarleb.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Sep 2017 10:04:37 +0300</pubDate>
-    <lastBuildDate>Fri, 15 Sep 2017 10:04:37 +0300</lastBuildDate>
+    <pubDate>Fri, 15 Sep 2017 10:06:07 +0300</pubDate>
+    <lastBuildDate>Fri, 15 Sep 2017 10:06:07 +0300</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
         <title>Implementing Preference</title>
-        <description>&lt;h3 id=&quot;preferenceactivity-in-android&quot;&gt;PreferenceActivity In Android&lt;/h3&gt;
-
+        <description>&lt;h4 id=&quot;preferenceactivity-in-android&quot;&gt;PreferenceActivity In Android&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;PreferenceActivity&lt;/strong&gt;  is the base class for an activity to show a hierarchy of preferences to the user.
 It is generally used for saving the setting/preference of  User. Android provides excellent framework to save and mange the User preferences.&lt;/p&gt;
 
